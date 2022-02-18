@@ -1,28 +1,41 @@
-# Next.js + Tailwind CSS Example
+# Spotify Clone V.2.0
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+https://user-images.githubusercontent.com/88297303/154679091-4fad6290-5182-4c4d-9b77-b86696087e25.mp4
 
-## Preview
+## Description of the Application
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+This Spotify Web Application is made using NextJS and Tailwindcss, and it's completely responsive for all devices.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+# How to use
 
-## Deploy your own
+## 1. Make sure you have NODE installed!
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+Firstly, you will need to download the latest version of Node by <a href="https://nodejs.org/en/download/">CLICKING HERE</a>
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## 2. Clone the repo!
 
-## How to use
+Next, you will need to run the following command in the Terminal to clone the repo onto your machine.
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+```git clone https://github.com/Timex19/Spotify_Clone-V2.0.git```
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+## 3. Install Dependancies
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
-#
+Next, you need to install all the dependancies using:
+
+```npm install```
+
+## 4. Setup the App
+
+You will need to create a .env file and change the spotify client Id and client secret to your own and also adding the NEXTAUTH_URL before running the app:
+![env](https://raw.githubusercontent.com/Timex19/Spotify_Clone-V2.0/master/assets/code.png)
+To add your own spotify client Id <a href="https://developer.spotify.com/dashboard/applications/">CLICK ON THIS LINK</a> then sign in using your spotify login details but if you don't have a spotify account you can simply register a new one, then go to your dashboard and create your own project and name it anything you want then add a redirect uri after creating the project with ```http://localhost:3000/api/auth/callback/spotify```.
+
+Once this is done, you can start the app by running:
+
+```npm run dev```
+
+🚀 BOOM, you are now LIVE!!!
+
+<b> Note: Inorder to be enable other users to be able to login to the app, you will need to add each user in your spotify developer dashboard by clicking on User and Access. </b>
+
+Anyway that's all, thanks for your time.
