@@ -1,7 +1,5 @@
 # Spotify Clone V.2.0
 
-https://user-images.githubusercontent.com/88297303/154679091-4fad6290-5182-4c4d-9b77-b86696087e25.mp4
-
 ## Description of the Application
 
 This Spotify Web Application is made using NextJS and Tailwindcss, and it's completely responsive for all devices.
