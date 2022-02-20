@@ -1,6 +1,6 @@
 # Spotify Clone V.2.0
 
-https://user-images.githubusercontent.com/88297303/154817721-256b2586-dc7f-4da8-beb3-e91f250a7e03.mp4
+https://user-images.githubusercontent.com/88297303/154847563-b7e88772-f0a9-48d3-8713-6ef2f5d3a624.mp4
 
 ## Description of the Application
 
